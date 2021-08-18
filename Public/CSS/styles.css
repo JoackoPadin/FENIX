@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+.yellow-text {
+  color: #eac926;
+}
+
+.yellow-background {
+  background-color: #eac926;
+}
+
+.blue {
+  color: rgb #03264c;
+}
+.light-blue {
+  color: rgb #1259c3;
+}
+.gray-dark {
+  color: rgb #666;
+}
+.gray-light {
+  color: rgb #ebebeb;
+}
+.green {
+  color: rgb #39b54a;
+}
+body {
+  font-family: "Roboto";
+}
+.text-black {
+  color: rgb(rgb(0, 0, 0));
+}
+.padding {
+  padding: 20px;
+}
+.margin-t0p {
+  margin-top: 0px;
+}
+
+.text-body {
+  font-size: 12px;
+}
+.text-titul {
+  font-size: 24px;
+}
+.text-precio {
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+}
+.text-descuen {
+  font-size: 16px;
+  color: green;
+  margin-top: 0px;
+}
+.text-descripcion {
+  font-size: 16px;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+  opacity: 0;
+  margin-left: 5px;
+}
+html,
+body {
+  margin: 0;
+}
+.centrado-tit {
+  text-align: left;
+}
+.ml-main-nav ul {
+  padding-left: 0;
+  list-style-type: none;
+  display: none;
+}
+.ml-main-nav a {
+  text-decoration: none;
+  color: black;
+}
+.text-center {
+  text-align: center;
+}
+.icon-search {
+  font-size: 18px;
+  margin-left: 8px;
+}
+.icon-search i {
+  background-color: white;
+}
+.margint-0 {
+  margin-top: 0px;
+}
+.ima-cent {
+  text-align: center;
+}
+
+.burger-menu {
+  text-align: center;
+  font-size: 24px;
+  width: 40px;
+  padding: 8px;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: blue;
+}
+
+.burger-menu i {
+  font-size: 24px;
+  color: white;
+  border-radius: 5px;
+}
+.footer-center p {
+  text-align: center;
+}
+.icon-card {
+  text-align: center;
+  color: blue;
+  margin-bottom: 10px;
+  size: 2em;
+  font-size: 35px;
+}
+.icon-gift {
+  text-align: center;
+  color: blue;
+  margin-bottom: 10px;
+  size: 2em;
+  font-size: 35px;
+}
+.icon-segurity {
+  text-align: center;
+  color: blue;
+  margin-bottom: 10px;
+  size: 2em;
+  font-size: 35px;
+}
+.barra-busquedad {
+  font-size: 12px;
+  margin-left: 8px;
+}
+.main-style {
+  padding: 0 5%;
+}
+.icon-truck {
+  color: #39b54a;
+  font-size: 16px;
+  padding: 5px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+}
+.banner-main {
+  width: 100%;
+}
+.article-style {
+  margin-bottom: 10px;
+}
+.box-arti {
+  border-top: 1px solid #ebebeb;
+  position: relative;
+  margin-top: -3px;
+  background-color: white;
+}
+.section {
+  background-color: rgb(226, 224, 224);
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-wrapper {
+  padding: 15px;
+}
+.size-50-50 {
+  width: 50%;
+  height: 50%;
+}
+.padding-top {
+  padding-top: 15px;
+}
+.padding-bottom {
+  padding-bottom: 15px;
+}
+.margin-li {
+  margin: 0 5px;
+}

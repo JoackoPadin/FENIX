@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercado Liebre-Registro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="/css/styles-tablet.css "
+      media="(min-width:480px)"
+    />
+    <link
+      rel="stylesheet"
+      href="/css/styles-md.css"
+      media="(min-width:680px)"
+    />
+    <link
+      rel="stylesheet"
+      href="/css/styles-lg.css"
+      media="(min-width: 1280)"
+    />
+  </head>
+  <body>
+    <header class="yellow-background padding">
+      <div class="flex padding-top space-between">
+        <div class="size-50-50">
+          <img src="images/logo-mercado-liebre.svg" alt="Logo" />
+        </div>
+        <div class="barra-busquedad flex">
+          <form>
+            <input type="search" placeholder="Buscar productos, marcas." />
+          </form>
+          <div class="icon-search">
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+
+        <div class="padding-top padding-bottom">
+          <div class="text-center">
+            <p class="text-body correction">
+              <i class="fas fa-hand-holding-usd" style="font-size: 1.8em"></i>
+              Comprá en cuotas y sin tarjeta de crédito
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <nav class="ml-main-nav">
+        <ul class="display-ul">
+          <li class="margin-li"><a href="#">Ofertas</a></li>
+          <li class="margin-li"><a href="#">tiendas oficiales</a></li>
+          <li class="margin-li"><a href="#">vender</a></li>
+          <li class="margin-li"><a href="#">ayuda</a></li>
+        </ul>
+
+        <ul class="display-ul">
+          <li class="margin-li">
+            <a href="#">creá tu cuenta</a
+            ><i
+              class="far fa-id-card padding-left5"
+              style="font-size: 1.5em"
+            ></i>
+          </li>
+          <li class="margin-li">
+            <a href="#">ingresá</a
+            ><i
+              class="fas fa-sign-in-alt padding-left5"
+              style="font-size: 1.5em"
+            ></i>
+          </li>
+          <li class="margin-li">
+            <a href="#">mis compras</a
+            ><i
+              class="fas fa-shopping-basket padding-left5"
+              style="font-size: 1.5em"
+            ></i>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="burger-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+    <main class="main-reg">
+      <h1>Registro</h1>
+      <form action="#" method="GET">
+        <div class="form-input">
+          <label class="main-label" for="firstname">Nombre y apellido</label>
+          <input class="width-input"
+            id="firstname"
+            type="text"
+            name="firstname"
+            placeholder="Nombre y apellido"
+          />
+          <p class="error-msj">Este campo es requerido</p>
+        </div>
+        <div class="form-input">
+          <label for="nameusu">Nombre de usuario</label>
+          <input class="width-input"
+            id="nameusu"
+            type="text"
+            name="nameusu"
+            placeholder="Nombre de usuario"
+          />
+        </div>
+        <div class="form-input">
+          <label for="datebird">Fecha de nacimiento</label>
+          <input class="width-input"
+            id="datebird"
+            type="date"
+            name="datebird"
+            placeholder="Fecha de nacimiento"
+          />
+        </div>
+        <div class="form-input">
+          <label for="street">Domicilio</label>
+          <input class="width-input"
+            id="street"
+            type="text"
+            name="street"
+            placeholder="Domicilio"
+          />
+        </div class="form-input">
+        <p class="Cat-int">Perfil de Usuario</p>
+        <div class="form-input">
+          <label for="bertday">Perfil de usuario</label>
+          <input
+            type="radio"
+            name="user-profile"
+            id="user-profile-seller"
+            value="seller"
+          />
+          <label class="radio-label" for="user-profile-seller">Vendedor</label>
+          <input
+            type="radio"
+            name="user-profile"
+            id="user-profile-buyer"
+            value="buyer"
+          />
+          <label class="radio-label" for="user-profile-buyer">comprador</label>
+        </div>
+        <p class="Cat-int">Categorias de Interés</p>
+        <div class="interes-style">
+        <div class="padding-bottom5">
+          <input type="checkbox" id="Electro" name="Eectro" />
+          <label for="Electro">Electro</label>
+        </div>
+        <div class="padding-bottom5">
+          <input type="checkbox" id="Moda" name="Moda" />
+          <label for="Moda">Moda</label>
+        </div>
+        <div class="padding-bottom5">
+          <input type="checkbox" id="Hogar" name="Hogar" />
+          <label for="Hogar">Hogar</label>
+        </div>
+        <div class="padding-bottom5">
+          <input type="checkbox" id="Jugueteria" name="Jugueteria" />
+          <label for="Jugueteria">Jugueteria</label>
+        </div>
+        <div class="padding-bottom5">
+          <input type="checkbox" id="Vida sana" name="Vida sana" />
+          <label for="Vida sana">Vida sana</label>
+        </div>
+      </div>
+        <div class="form-input">
+          <p class="Cat-int">Foto de Usuario</p>
+          <input class="width-input" type="file"  name= "profile-pic" accept="image/png,images/jpg" placeholder="Foto de usuario" />
+        </div>
+        <div class="form-input">
+          <p class="Cat-int">Contraseña</p>
+          <input class="width-input" type="password" placeholder="Contraseña" />
+        </div>
+        <div class="form-input">
+          <input class="width-input" type="password" placeholder="Confirmar contraseña" />
+        </div>
+        <button type="button">Enviar</button>
+        <button type="reset">Borrar todos los datos</button>
+      </form>
+    </main>
+  </body>
+</html>

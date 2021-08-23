@@ -13,3 +13,22 @@
   list-style-type: none;
   display: initial;
 }
+.icon-truck {
+  color: #39b54a;
+  font-size: 16px;
+  padding: 5px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  border-radius: 50%;
+  position: absolute;
+  right: 16px;
+  bottom: 71px;
+}
+.text-descripcion {
+  opacity: 0;
+}
+.text-descripcion:hover {
+  opacity: 1;
+}

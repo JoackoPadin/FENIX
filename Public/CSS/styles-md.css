@@ -1,3 +1,4 @@
+/* TABLET 680 */
 .text-descripcion {
   font-size: 16px;
   margin-bottom: 0px;
@@ -11,8 +12,37 @@
 .ml-main-nav ul {
   padding-left: 0;
   list-style-type: none;
-  display: initial;
+  display: flex;
 }
 .article-style {
   width: 25%;
+}
+.icon-truck {
+  color: #39b54a;
+  font-size: 16px;
+  padding: 5px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  border-radius: 50%;
+  position: absolute;
+  right: 8px;
+  bottom: 111px;
+}
+.text-descripcion {
+  opacity: 0;
+}
+.text-descripcion:hover {
+  opacity: 1;
+}
+.shadow-product {
+  box-shadow: none;
+  padding: 10px;
+}
+.shadow-product:hover {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.icon-truck {
+  bottom: 84px;
 }

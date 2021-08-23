@@ -45,4 +45,8 @@
 }
 .icon-truck {
   bottom: 84px;
+  transition: ease-in-out 500ms;
+}
+.shadow-product:hover .icon-truck {
+  transform: rotate(360deg);
 }
